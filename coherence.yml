@@ -1,0 +1,6 @@
+backend:
+  type: backend
+  url_path: /
+  local_packages: ["node_modules"]
+  dev: ["npm", "run", "dev"]
+  prod: ["npm", "run", "start"]
