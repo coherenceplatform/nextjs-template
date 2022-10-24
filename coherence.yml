@@ -1,9 +1,6 @@
 backend:
   type: backend
-  index_file_name: index.html
   url_path: /
-  repo_path: backend
-  local_packages: ["/app/node_modules"]
+  local_packages: ["node_modules"]
   dev: ["npm", "run", "dev"]
   prod: ["npm", "run", "start"]
-  
